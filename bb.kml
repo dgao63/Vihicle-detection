@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document id="Layers">
+	<name>Layers</name>
+	<visibility>0</visibility>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[<div style=''><div><div><p><span>This is a digital Seismic Hazard Zone Map presenting areas where liquefaction and landslides may occur during a strong earthquake. Three types of geological hazards, referred to as seismic hazard zones, may be featured on the map: 1) liquefaction, 2) earthquake-induced landslides, and 3) overlapping liquefaction and earthquake-induced landslides. In addition, a fourth feature may be included representing areas not evaluated for liquefaction or earthquake-induced landslides. Developers of properties falling within any of the three zones may be required to investigate the potential hazard and mitigate its threat during the local permitting process.</span></p></div></div></div>]]></description>
+	<GroundOverlay id="GroundOverlay0">
+		<name>Liquefaction Zones</name>
+		<visibility>0</visibility>
+		<Snippet maxLines="0"></Snippet>
+		<drawOrder>1000</drawOrder>
+		<Icon>
+			<href>https://spatialservices.conservation.ca.gov/arcgis/services/CGS_Earthquake_Hazard_Zones/SHP_Liquefaction_Zones/MapServer/KmlServer?Composite=false&amp;VectorsToRasters=true&amp;LayerIDs=-1&amp;BBOX=-139.9343064121213,32.47730365958392,-99.57954758787857,53.32261602033579;CAMERA=-119.756927,35.743821,811579.9,45,0;VIEW=60,45.727,1094,799,1/567b8efe-81e0-46ca-ba10-320ad0b88e0f.png</href>
+		</Icon>
+		<LatLonBox>
+			<north>38.572292</north>
+			<south>32.91535</south>
+			<east>-116.449659</east>
+			<west>-123.064195</west>
+		</LatLonBox>
+	</GroundOverlay>
+</Document>
+</kml>
